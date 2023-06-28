@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Masters</title>
+    <link rel="stylesheet" href="coffee.css" />
+</head>
+
+
+<body>
+    <img src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png"
+    alt="coffee masters logo" class="logo" />
+    <div class="header">Coffee Masters</div>
+    <div class="flex-container">
+        <div class="final-order">
+            <h2 class="box-title">ITEMS</h2>
+            <br>
+            <div class="item">
+                <div class="quantity">1x</div>
+                <div class="type">Iced Chai Latte</div>
+                <div class="price">$5.75</div>
+                <ul class="item-options-list">
+                    <li class="item-option">Extra Whipping Cream</li>
+                </ul>
+            </div>
+
+
+            <hr class="line-seperator">
+            <br>
+
+            <div class="item">
+                <div class="quantity">1x</div>
+                <div class="type">Jelly Donut</div>
+                <div class="price">$1.55</div>
+            </div>
+
+            <br>
+            <hr class="line-seperator">
+            <br>
+
+            <div class="item">
+                <div class="quantity">1x</div>
+                <div class="type">White Chocolate Mocha</div>
+                <div class="price">$6.05</div>
+                <ul class="item-options-list">
+                    <li class="item-option">Extra Whipping Cream</li>
+                    <li class="item-option">Caramel Drizzle</li>
+                </ul>
+            </div>
+        </div>
+    
+
+    <div class="order-name-box">
+        <div>
+            <h2 class="box-title">NAME</h2>
+            <label class="name-for-order" for="name">Name for order</label>
+            <input type="text" class="user-input" id="name" />
+        </div>
+        
+        <div class="payment ">
+            <h2 class="box-title">PAYMENT</h2>
+            <div class="card-number">
+                <label class="card-number" for="payment">Card Number</label>
+                <input type="text" class="user-input" id="name" />
+            </div>
+    
+            <br>
+    
+            <div class="CCV-number">
+                <label class="CCV-number" for="payment">CCV Number</label>
+                <input type="text" class="user-input-ccv" id="name" />
+            </div>
+        </div> 
+    </div>
+
+</div> <!--end of flex container tag-->
+    
+
+    
+        <div class="total">
+            <table class="total-table">
+                <tr>
+                    <td>Subtotal:</td>
+                    <td>$13.35</td>
+                </tr>
+                <tr>
+                    <td>Tax:</td>
+                    <td>$0.63</td>
+                </tr>
+                <tr class="final-totals">
+                    <td>Total:</td>
+                    <td>$13.98</td>
+                </tr>
+                </tbody>
+            </table>
+            <button class="checkout" type="button">Place order</button>
+        </div>
+    
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spinny-boi {
+  animation: spin 2s infinite linear;
+  display: inline-block;
+  font-size: 30px;
+
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spinny-boi1 {
+  animation: spin 2s infinite linear;
+  display: inline-block;
+  font-size: 30px;
+
+}
+.
+.text {
+  color: blue;
+  margin: 200px;
+  padding: 200px;
+}
+
+.text1 {
+  color: blue;
+  margin: 200px;
+  padding: 200px;
+}
+

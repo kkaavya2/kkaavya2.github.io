@@ -1,0 +1,27 @@
+.title {
+    color:cadetblue;
+}
+
+p {
+    color:darkslategray;
+}
+
+li {
+    color:cornflowerblue
+}
+
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .spinny-boi {
+    animation: spin 0.5s infinite linear;
+    display: inline-block;
+    font-size: 30px;
+
+  }
+
+body{
+    background-color: #D8E8F1;
+}
