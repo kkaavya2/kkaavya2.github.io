@@ -25,3 +25,37 @@ li {
 body{
     background-color: #D8E8F1;
 }
+
+#bookstore {
+  width: 15%;
+  border-radius: 100%;
+  position: absolute;
+  left: 130px;
+  top: 450px;
+}
+
+#noodles {
+  position: absolute;
+  left: 280px;
+  width: 12%;
+  top: 530px;
+}
+
+#cuteDog {
+  position: absolute;
+  width: 11%;
+  left: 30px;
+}
+
+#seas {
+  position: absolute;
+  width: 15%;
+  left: 290px;
+  bottom: 128px;
+}
+
+#bread {
+  position: absolute;
+  width: 9%;
+  left: 173px;
+}
