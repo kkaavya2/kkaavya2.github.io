@@ -31,20 +31,22 @@ body{
   border-radius: 100%;
   position: absolute;
   left: 130px;
-  top: 450px;
+  top: 440px;
+  z-index: 10;
 }
 
 #noodles {
   position: absolute;
-  left: 280px;
+  left: 305px;
   width: 12%;
-  top: 530px;
+  top: 505px;
 }
 
 #cuteDog {
   position: absolute;
-  width: 11%;
-  left: 30px;
+  width: 10%;
+  left: 15px;
+  bottom: 80px;
 }
 
 #seas {
@@ -56,6 +58,21 @@ body{
 
 #bread {
   position: absolute;
-  width: 9%;
-  left: 173px;
+  width: 7%;
+  left: 215px;
+  bottom: 190px;
+  z-index: 4;
+}
+
+#bookstack {
+  position: absolute;
+  width: 7.3%;
+  left: 135px;
+  bottom: 180px;
+  z-index: 3;
+}
+
+#snoopy {
+  position: absolute;
+  left: 800px;
 }
