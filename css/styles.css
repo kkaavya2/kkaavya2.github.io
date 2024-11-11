@@ -1,3 +1,23 @@
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  background-color: #a2b5e3;
+  border-style: solid;
+  border-width: 2px;
+  padding: 15px;
+  border-radius: 15px;
+  border-color: #5571ab;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: darkslategray;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 1000;
+}
+
 .title {
     color:cadetblue;
 }
@@ -26,53 +46,83 @@ body{
     background-color: #D8E8F1;
 }
 
+h3 {
+  color: cornflowerblue;
+}
+
 #bookstore {
   width: 15%;
   border-radius: 100%;
   position: absolute;
   left: 130px;
-  top: 440px;
+  top: 510px;
   z-index: 10;
 }
 
 #noodles {
   position: absolute;
-  left: 305px;
+  left: 300px;
   width: 12%;
-  top: 505px;
+  top: 575px;
+  padding-bottom: 100px;
 }
 
 #cuteDog {
   position: absolute;
   width: 10%;
-  left: 15px;
-  bottom: 80px;
+  left: 17px;
+  bottom: 10px;
 }
 
 #seas {
   position: absolute;
-  width: 15%;
+  width: 12%;
   left: 290px;
-  bottom: 128px;
+  bottom: 70px;
 }
 
 #bread {
   position: absolute;
   width: 7%;
-  left: 215px;
-  bottom: 190px;
+  left: 210px;
+  bottom: 123px;
   z-index: 4;
 }
 
 #bookstack {
   position: absolute;
-  width: 7.3%;
-  left: 135px;
-  bottom: 180px;
+  width: 7.7%;
+  left: 132px;
+  bottom: 110px;
   z-index: 3;
 }
 
 #snoopy {
   position: absolute;
-  left: 800px;
+  width: 8%;
+  left: 250px;
+  bottom: -65px;
+  z-index: 10;
+}
+
+#violin {
+  position: absolute;
+  width: 8%;
+  left: 90px;
+  bottom: -100px;
+}
+
+#taekwondo {
+  position: absolute;
+  width: 9.5%;
+  left: 185px;
+  bottom: -140px;
+}
+
+#cookies {
+  position: absolute;
+  width: 11%;
+  left: 80px;
+  bottom: 50px;
+  z-index: 10;
 }
